@@ -1,0 +1,499 @@
+@charset "UTF-8";
+
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+#body a {
+	color: #edad3b;
+}
+#contact a {
+	color: #edad3b;
+}
+#contact p2 {
+	text-align: center;
+}
+p2 {
+	text-align: center;
+}
+#contact {
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		2;
+	dw-num-cols-tablet:		4;
+	dw-num-cols-desktop:	6;
+	dw-gutter-percentage:	30;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 79.6153%;
+	padding-left: 5.1923%;
+	padding-right: 5.1923%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+#LayoutDiv1 img {
+	height: 73px;
+	width: 100px;
+	
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block; 
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv7 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv8 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nav {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding-bottom:25px; 
+}
+#nav img {
+	height: 23px;
+	width: 75px;
+}
+#body {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#body p1 {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;	
+}
+#aboutpicture {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gallerybody {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: centre;
+}
+#Gallery1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+#Gallery2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+#Gallery3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+#Gallery4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+#contact {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 80.0961%;
+	padding-left: 2.4519%;
+	padding-right: 2.4519%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv1 img {
+	height: 110px;
+	width: 150px;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 46.9387%;
+	display: block;
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 46.9387%;
+	display: block;
+}
+#LayoutDiv4 {
+	clear: none;
+	float: left;
+	margin-left: 6.1224%;
+	width: 46.9387%;
+	display: block;
+}
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 46.9387%;
+	display: block;
+}
+#LayoutDiv6 {
+	clear: none;
+	float: left;
+	margin-left: 6.1224%;
+	width: 46.9387%;
+	display: block;
+}
+#LayoutDiv7 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 46.9387%;
+	display: block;
+}
+#LayoutDiv8 {
+	clear: none;
+	float: left;
+	margin-left: 6.1224%;
+	width: 46.9387%;
+	display: block;
+}
+#nav {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nav img {
+	height: 29px;
+	width: 95px;
+}
+#body {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 46.9387%;
+	display: block;
+}
+#body p1 {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#aboutpicture {
+	clear: none;
+	float: left;
+	margin-left: 6.1224%;
+	width: 46.9387%;
+	display: block;
+}
+#gallerybody {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Gallery1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 46.9387%;
+	display: block;
+}
+#Gallery2 {
+	clear: none;
+	float: left;
+	margin-left: 6.1224%;
+	width: 46.9387%;
+	display: block;
+}
+#Gallery3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 46.9387%;
+	display: block;
+}
+#Gallery4 {
+	clear: none;
+	float: left;
+	margin-left: 6.1224%;
+	width: 46.9387%;
+	display: block;
+}
+#contact {
+	clear: both;
+	float: left;
+	margin-left: 26.5306%;
+	width: 46.9387%;
+	display: block;
+}
+
+}
+
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 76.923%;
+	max-width: 1232px;
+	padding-left: 1.5384%;
+	padding-right: 1.5384%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+#LayoutDiv1 img {
+	height: 161px;
+	width: 230px;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 30.6666%;
+	display: block;
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 30.6666%;
+	display: block;
+}
+#LayoutDiv4 {
+	clear: none;
+	float: left;
+	margin-left: 4%;
+	width: 30.6666%;
+	display: block;
+}
+#LayoutDiv5 {
+	clear: none;
+	float: left;
+	margin-left: 4%;
+	width: 30.6666%;
+	display: block;
+}
+#LayoutDiv6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 30.6666%;
+	display: block;
+}
+#LayoutDiv7 {
+	clear: none;
+	float: left;
+	margin-left: 4%;
+	width: 30.6666%;
+	display: block;
+	text-align: center;
+}
+#nav {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nav img {
+	height: 38px;
+	width: 125px;
+}
+#body {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 65.3333%;
+	display: block;
+}
+#body p1 {
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#aboutpicture {
+	clear: none;
+	float: left;
+	margin-left: 4%;
+	width: 30.6666%;
+	display: block;
+}
+#gallerybody {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv8 {
+	clear: none;
+	float: left;
+	margin-left: 4%;
+	width: 30.6666%;
+	display: block;
+}
+#Gallery1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48%;
+	display: block;
+}
+#Gallery2 {
+	clear: none;
+	float: left;
+	margin-left: 4%;
+	width: 48%;
+	display: block;
+}
+#Gallery3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48%;
+	display: block;
+}
+#Gallery4 {
+	clear: none;
+	float: left;
+	margin-left: 4%;
+	width: 48%;
+	display: block;
+}
+#contact {
+	clear: both;
+	float: left;
+	margin-left: 34.6666%;
+	width: 30.6666%;
+	display: block;
+	text-align: center;
+}
+}.content img{
+	padding-bottom: 35px;
+}
+
+.go-top {
+	position: fixed;
+	bottom: 5em;
+	right: 5em;
+	text-decoration: none;
+	color: white;
+	background-image: url(http://www.themecloud.co/themes/narnia/totop_1.png);
+	font-size: 12px;
+	width: 51px;
+	height: 51px;
+	display: none;
+
+	
+}
